@@ -1,0 +1,95 @@
+html{
+
+    height: 100%;
+}
+body{
+    
+    height: 100%;
+    margin: 0;
+}
+
+#root{
+
+    height: 100%;
+    height: 100%;
+   
+
+}
+
+footer{
+    
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main{
+
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#Imagem{
+
+    width: 350px;
+    height: 238px;
+    
+}
+
+.Labels{
+
+    font-size: 20px;
+
+}
+
+#Destino{
+
+    color: #EE24FF;
+}
+
+.Destaque{
+
+    color: #000000fb;
+
+}
+
+#Opacidade{
+
+    color: #a1a0a0;
+}
+
+.p{
+
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#DivInterna{
+
+    width: 626px;
+    height: 486px;
+    top: 64px;
+    left: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Espacamento{
+
+    max-width: 530px; 
+
+}
+
+#Oferta{}
