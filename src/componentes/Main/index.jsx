@@ -1,12 +1,10 @@
-import { Paragrafos,ImagemUm, Destino, Destaque, Pstyle, Espacamento, Opacidade, Container  } from './style'
+import { Paragrafos,ImagemUm, Destino, Destaque, Pstyle, Espacamento, Opacidade } from './style'
 import Img1 from '../../img/img1.jpg'
 
-{/* <p className="p">Se você ainda não tem um destino definido, confira nossa seção de ofertas.
-          </p> */}
 
 export function Main(){
     return(
-        <Container>
+        <>
             
             <ImagemUm src={Img1}></ImagemUm>
             <Paragrafos>O seu <Destino>destino</Destino> pode estar aqui...</Paragrafos>
@@ -15,7 +13,7 @@ export function Main(){
           e até seguro viagem com <Destaque>preços arrasadores!</Destaque></Pstyle></Espacamento>
             <Pstyle>Se você ainda não tem um destino definido, confira nossa seção de ofertas.</Pstyle>
             
-        </Container>
+        </>
 
     )
 }
