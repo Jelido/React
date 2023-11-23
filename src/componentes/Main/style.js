@@ -35,3 +35,22 @@ export const Espacamento = styled.span`
 export const Opacidade = styled.span`
     color: #a1a0a0;
 `
+export const Cima = styled.div`
+margin-top: 130px;
+    width: 1900px;
+    height: 486px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;`
+
+export const DivInterna = styled.div`
+width: 626px;
+    height: 486px;
+    top: 64px;
+    left: 199px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;`
