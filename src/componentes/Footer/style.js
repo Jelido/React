@@ -19,13 +19,15 @@ export const Espacamento = styled.span`
 
 `
 export const Baixo = styled.div`
-    height: 99 px;
+    height: 30%;
     width: 1900px;
+    display: flex;
+    justify-content: center;
+`
+export const ImagemBackground = styled.img`
+
     background-image: url(../../img/wave.png);
     background-size: 100% 60%;
     background-repeat: no-repeat;
     background-position: bottom;
-    display: flex;
-    justify-content: center;
 `
-

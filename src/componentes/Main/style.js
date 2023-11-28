@@ -14,6 +14,7 @@ export const Paragrafos = styled.h1`
     text-align: center;
     color: #3F3D56;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
 `
 export const Destino = styled.strong`
     color: #EE24FF;
@@ -24,6 +25,7 @@ export const Pstyle = styled.p`
     font-size: 15px;
     line-height: 22px;
     text-align: center;
+    margin-top: 20px;
 `
 export const Destaque = styled.span`
     color: #000000fb;
@@ -38,7 +40,7 @@ export const Opacidade = styled.span`
 export const Cima = styled.div`
 margin-top: 130px;
     width: 1900px;
-    height: 486px;
+    height: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,4 +55,5 @@ width: 626px;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;`
+    flex-direction: column;
+`

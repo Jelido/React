@@ -1,4 +1,4 @@
-import { Lista, Espacamento, Baixo } from './style'
+import { Lista, Espacamento, Baixo, ImagemBackground } from './style'
 import Img1 from '../../img/wave.png'
 
 export function Footer(){
@@ -10,7 +10,7 @@ export function Footer(){
             <strong><li>Contato</li></strong>
             </Lista>
         </Baixo>
-            
+        
         </>
 
     )

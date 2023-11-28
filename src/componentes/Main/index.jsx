@@ -1,4 +1,4 @@
-import { Paragrafos,ImagemUm, Destino, Destaque, Pstyle, Espacamento, Opacidade, Cima, DivInterna } from './style'
+import { Paragrafos,ImagemUm, Destino, Destaque, Pstyle, Espacamento, Opacidade, Cima, DivInterna, } from './style'
 import Img1 from '../../img/img1.jpg'
 
 

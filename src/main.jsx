@@ -1,10 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Home } from './pages/Home'
-
-
+import GlobalStyles from './styles/global'
+import { ThemeProvider } from 'styled-components'
+import theme from './styles/theme'
+import { Routes } from './routes'
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
+<React.StrictMode>
+<ThemeProvider theme={theme}>
+<GlobalStyles/>
+<Routes />
+</ThemeProvider>
+</React.StrictMode>
 )
+// import { Home } from './pages/Home'
+// import { Destiny } from './pages/Destiny'
