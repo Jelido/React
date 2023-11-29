@@ -1,12 +1,16 @@
 import { Footer } from '../../componentes/Footer'
-
+import { DivInterna, Paragrafos } from './style'
 
 
 export  function Login(){
   return(
   <>
 
-    <h1>Página Login</h1>
+    <DivInterna>
+    <Paragrafos>Página Login</Paragrafos>
+    </DivInterna>
+    <Footer/> 
+   
     
     <Footer/> 
    

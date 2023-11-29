@@ -48,10 +48,8 @@ margin-top: 130px;
     margin-bottom: 100px;`
 
 export const DivInterna = styled.div`
-width: 626px;
+    width: 626px;
     height: 486px;
-    top: 64px;
-    left: 199px;
     display: flex;
     align-items: center;
     justify-content: center;

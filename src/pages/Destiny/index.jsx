@@ -1,4 +1,4 @@
-
+import { DivInterna, Paragrafos } from './style'
 import { Footer } from '../../componentes/Footer'
 
 
@@ -6,9 +6,9 @@ import { Footer } from '../../componentes/Footer'
 export  function Destiny(){
   return(
   <>
-
-    <h1>Página Destino</h1>
-    
+    <DivInterna>
+    <Paragrafos>Página Destino</Paragrafos>
+    </DivInterna>
     <Footer/> 
    
   </>

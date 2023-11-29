@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import ImgWave from '../../img/wave.png';
 
 export const Lista = styled.ul`
 
@@ -20,10 +21,19 @@ export const Espacamento = styled.span`
 `
 export const Baixo = styled.div`
     height: 30%;
-    width: 1900px;
+    width: 100%;
     display: flex;
     justify-content: center;
-`
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    background-image: url(${ImgWave});
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1000;
+`;
+
 export const ImagemBackground = styled.img`
 
     background-image: url(../../img/wave.png);
